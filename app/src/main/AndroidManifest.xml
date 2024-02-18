@@ -29,7 +29,7 @@
             android:exported="false" />
         <activity
             android:name=".firstapp.FirstAppActivity"
-            android:exported="true"></activity>
+            android:exported="true" />
     </application>
 
 </manifest>
