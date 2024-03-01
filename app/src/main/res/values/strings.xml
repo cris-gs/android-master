@@ -1,5 +1,7 @@
 <resources>
     <string name="app_name">AndroidMaster</string>
+
+    <!--IMCApp-->
     <string name="male">Male</string>
     <string name="female">Female</string>
     <string name="height">Height</string>
@@ -23,4 +25,14 @@
 
     <string name="title_obesity">Obesity</string>
     <string name="description_obesity">You are well above the optimal for your weight and height.</string>
+
+    <!--TodoApp-->
+    <string name="todo_title">Welcome!</string>
+    <string name="todo_categories">Categories:</string>
+    <string name="todo_tasks">Tasks:</string>
+    <string name="todo_dialog_write_task">Write the tasks</string>
+    <string name="todo_category_business">Business</string>
+    <string name="todo_category_personal">Personal</string>
+    <string name="todo_category_other">Other</string>
+    <string name="todo_dialog_add_task_button">Create task</string>
 </resources>
