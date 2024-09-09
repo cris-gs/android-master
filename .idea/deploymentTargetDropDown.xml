@@ -10,12 +10,12 @@
               <deviceKey>
                 <Key>
                   <type value="VIRTUAL_DEVICE_PATH" />
-                  <value value="C:\Users\Cristopher\.android\avd\AndroidMasterEmulator.avd" />
+                  <value value="C:\Users\Cristopher\.android\avd\AdroidMaster.avd" />
                 </Key>
               </deviceKey>
             </Target>
           </targetSelectedWithDropDown>
-          <timeTargetWasSelectedWithDropDown value="2024-03-01T03:24:25.260246100Z" />
+          <timeTargetWasSelectedWithDropDown value="2024-03-06T21:59:17.759070200Z" />
         </State>
       </entry>
     </value>

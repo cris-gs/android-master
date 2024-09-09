@@ -5,8 +5,8 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
 import com.badgerdev.androidmaster.firstapp.FirstAppActivity
-import com.badgerdev.androidmaster.firstapp.ResultActivity
 import com.badgerdev.androidmaster.imccalculator.ImcCalculatorActivity
+import com.badgerdev.androidmaster.superheroapp.SuperheroListActivity
 import com.badgerdev.androidmaster.todoapp.TodoActivity
 
 class MenuActivity : AppCompatActivity() {
@@ -16,9 +16,11 @@ class MenuActivity : AppCompatActivity() {
         val btnGreetApp = findViewById<Button>(R.id.btnGreetApp)
         val btnIMCApp = findViewById<Button>(R.id.btnIMCApp)
         val btnTODO = findViewById<Button>(R.id.btnTODO)
+        val btnSuperhero = findViewById<Button>(R.id.btnSuperhero)
         btnGreetApp.setOnClickListener { navigateToGreetApp() }
         btnIMCApp.setOnClickListener { navigateToIMCApp() }
         btnTODO.setOnClickListener { navigateToTodoApp() }
+        btnSuperhero.setOnClickListener { navigateToSuperheroApp() }
     }
 
     private fun navigateToTodoApp(){
@@ -32,6 +34,11 @@ class MenuActivity : AppCompatActivity() {
 
     private fun navigateToGreetApp(){
         val intent = Intent(this, FirstAppActivity::class.java)
+        startActivity(intent)
+    }
+
+    private fun navigateToSuperheroApp() {
+        val intent = Intent(this, SuperheroListActivity::class.java)
         startActivity(intent)
     }
 }
